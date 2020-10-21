@@ -1,9 +1,9 @@
 import React from 'react'
-import {alfredTip} from '@kentcdodds/react-workshop-app/test-utils'
-import {render, screen, act} from '@testing-library/react'
+import { alfredTip } from '@kentcdodds/react-workshop-app/test-utils'
+import { render, screen, act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import App from '../final/01'
-// import App from '../exercise/01'
+// import App from '../final/01'
+import App from '../exercise/01'
 
 beforeEach(() => {
   window.navigator.geolocation = {
